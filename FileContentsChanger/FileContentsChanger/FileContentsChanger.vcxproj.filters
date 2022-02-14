@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{3833917d-c247-4d6f-a9bb-7d5d543b7a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{5aa140a9-94ab-4ab6-b724-44c7f3746c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CppUtil">
+      <UniqueIdentifier>{1076e934-9951-405f-8a98-f9f13d0dc0c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileContentsChanger.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FileContentsChangerDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CppUtil\CppUtil.h">
+      <Filter>CppUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileContentsChanger.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="FileContentsChangerDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FileContentsChanger.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FileContentsChanger.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FileContentsChanger.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
