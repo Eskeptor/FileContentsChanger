@@ -1,16 +1,16 @@
-# Welcome to my "FileContentsChanger"
+ï»¿# Welcome to my "FileContentsChanger"
 ## About this project
-My Utility Library (C++, C#)
+Change the contents of the file.
 ## What's New? (Last updated 2022.02.14)
 ```
  1) Project Upload
 ```
 ## Next Updates
 ```
- 1) Add Function
-	¤¤ Files - Delete
-	¤¤ Replace - Delete
-	¤¤ Replace - Start
+ 1) Add FunctionChange the contents of the file.
+	ã„´ Files - Delete
+	ã„´ Replace - Delete
+	ã„´ Replace - Start
 ```
 ## License
 ```
