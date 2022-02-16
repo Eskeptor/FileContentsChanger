@@ -17,12 +17,17 @@ public:
 	static void INIWriteString(CString strAppName, CString strKeyName, CString strFilePath, double dValue);
 	static void INIWriteString(CString strAppName, CString strKeyName, CString strFilePath, float fValue);
 
+	// File Write
+	static bool WriteFile(CString strPath, CString strText, int nEncode);
+	static bool WriteFileANSI(CString strPath, CString strText);
+	static bool WriteFileUTF8(CString strPath, CString strText, bool bWithBOM);
+	static bool WriteFileUnicode(CString strPath, CString strText);
 	// File Read (EUC-KR)
 	static CString ReadFileANSI(CString strPath);
 	// File Read (UTF-8)
 	static CString ReadFileUTF8(CString strPath);
 	// File Read (After Encoding Check)
-	static CString ReadFileAll(CString strPath);
+	static CString ReadFileAll(CString strPath, int& nOutEncode);
 	// Check File Encoding
 	static int CheckFileEncoding(CString strPath);
 	// Folder Check (If folder is not exist, folder create)

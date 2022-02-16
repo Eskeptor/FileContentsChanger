@@ -14,6 +14,12 @@
     <Filter Include="CppUtil">
       <UniqueIdentifier>{1076e934-9951-405f-8a98-f9f13d0dc0c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{58e7de1f-1aaf-4874-a995-968672d9a0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control\DropListCtrl">
+      <UniqueIdentifier>{d9b53fed-1604-4156-8aae-3ff17b7060e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileContentsChanger.h">
@@ -37,6 +43,9 @@
     <ClInclude Include="include\CppUtil\CppUtil.h">
       <Filter>CppUtil</Filter>
     </ClInclude>
+    <ClInclude Include="DropListCtrl.h">
+      <Filter>Control\DropListCtrl</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FileContentsChanger.cpp">
@@ -47,6 +56,12 @@
     </ClCompile>
     <ClCompile Include="FileContentsChangerDlg.cpp">
       <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="include\CppUtil\CppUtil.cpp">
+      <Filter>CppUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="DropListCtrl.cpp">
+      <Filter>Control\DropListCtrl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

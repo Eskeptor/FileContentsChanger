@@ -10,11 +10,5 @@
 // 여기에 미리 컴파일하려는 헤더 추가
 #include "framework.h"
 
-#ifdef _DEBUG
-	#pragma comment(lib, "lib/CppUtil/CppUtil_d.lib")
-#else
-	#pragma comment(lib, "lib/CppUtil/CppUtil.lib")
-#endif
-#include "include/CppUtil/CppUtil.h"
 
 #endif //PCH_H

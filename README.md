@@ -1,16 +1,15 @@
 ﻿# Welcome to my "FileContentsChanger"
 ## About this project
 Change the contents of the file.
-## What's New? (Last updated 2022.02.14)
+## What's New? (Last updated 2022.02.16)
 ```
- 1) Project Upload
+ 1) Add FunctionChange the contents of the file.
+	ㄴ Replace - Start
+ 2) Integrate CppUtil into This Project.
 ```
 ## Next Updates
 ```
- 1) Add FunctionChange the contents of the file.
-	ㄴ Files - Delete
-	ㄴ Replace - Delete
-	ㄴ Replace - Start
+ 1) Optimization
 ```
 ## License
 ```
