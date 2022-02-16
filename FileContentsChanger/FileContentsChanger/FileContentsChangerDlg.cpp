@@ -105,7 +105,7 @@ void CFileContentsChangerDlg::InitContorls()
 	// Dialog
 	{
 		// Title
-		SetWindowText(_T("File Contents Changer (by Eskeptor)"));
+		SetWindowText(_T("File Contents Changer 1.0.0 (by Eskeptor)"));
 	}
 
 	// List Control
