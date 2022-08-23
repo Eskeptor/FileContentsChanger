@@ -105,7 +105,7 @@ void CFileContentsChangerDlg::InitContorls()
 	// Dialog
 	{
 		// Title
-		SetWindowText(_T("File Contents Changer 1.0.0 (by Eskeptor)"));
+		SetWindowText(_T("File Contents Changer 1.0.1 (by Eskeptor)"));
 	}
 
 	// List Control
@@ -661,6 +661,11 @@ void CFileContentsChangerDlg::OnBnClickedBtnRepReset()
 }
 
 
+/**
+Replace Thread Function
+@param		pParams
+@return
+*/
 UINT CFileContentsChangerDlg::ReplaceThread(LPVOID pParams)
 {
 	CFileContentsChangerDlg* pMainDlg = (CFileContentsChangerDlg*)pParams;
@@ -679,6 +684,9 @@ UINT CFileContentsChangerDlg::ReplaceThread(LPVOID pParams)
 			   pMainDlg->GetExitFlag() == false)
 		{
 			strContents = CppUtil::ReadFileAll(*iterFile, nCurEncode);
+			TRACE(_T("File Read Complete : %s\n"), *iterFile);
+			TRACE(_T("File Encode : %d\n"), nCurEncode);
+
 			if (strContents.IsEmpty() == false)
 			{
 				auto iterReplace = pMainDlg->GetReplaceListIterBegin();

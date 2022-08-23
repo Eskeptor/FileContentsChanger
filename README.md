@@ -1,12 +1,12 @@
 ﻿# Welcome to my "FileContentsChanger"
 ## About this project
 Change the contents of the file.
-## What's New? (Last updated 2022.02.16)
+## What's New? (Last updated 2022.08.23)
 ```
- 1) Add FunctionChange the contents of the file.
-	ㄴ Replace - Start
-	ㄴ Drag & Drop
- 2) Integrate CppUtil into This Project.
+ 1) Fixed Bugs
+   - ANSI file is not saved as ANSI (saved as Unicode)
+   - UTF8 file is not saved as UTF8 (saved as Unicode)
+   - Failure notification after multiple file changes (but all succeeded)
 ```
 ## Next Updates
 ```
